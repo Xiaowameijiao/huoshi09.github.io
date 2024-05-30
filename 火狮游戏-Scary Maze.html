@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> 火狮 Scary Maze </title>
+        <style>
+            body {
+                background-color: black;
+            }
+            button {
+                background-color: rgba(67, 67, 67, 0.622);
+                color: #008200;
+                width: 150px;
+                height: 50px;
+                font-size: 20px;
+            }
+            #backButton {
+            background-color: #1d1d1d4f;
+            color: #008200;
+            }
+        </style>
+    </head>
+    <body> 
+<button id="backButton" onclick="goBack()">退出游戏</button>
+    <center>
+   <h2 style="color: #008200"> 火狮团队 </h2>
+   <br>
+    <h2 style="color: #008200"> 温馨提示: </h2>
+    <p style="color: #008200;"> 该游戏是恐怖游戏，请你做好心理准备。</p>
+    <br><br><br><br><br>
+    <a href="https://www.scary-maze.com/html5/"; style="color: #008200;"> <button> 开始游戏 </button></a>
+    </center>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+    </body>
+</html>
